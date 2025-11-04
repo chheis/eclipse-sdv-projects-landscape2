@@ -1,0 +1,45 @@
+name: Build
+
+on:
+  pull_request:
+    branches: [ "main" ]
+  push:
+    branches: [ "main" ]
+  workflow_call:
+    inputs:
+      env_file:
+        description: "Env file to select image (.env.fixed or .env.latest)"
+        required: false
+        default: ".env.stable"
+        type: string
+
+permissions:
+  contents: read
+  packages: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Reset compose state
+        run: |
+          docker compose down --volumes --remove-orphans || true
+          rm -rf build && mkdir -p build
+
+      - name: Build (to named volume)
+        run: docker compose --env-file "${{ inputs.env_file }}" run --rm l2-build
+
+      - name: Export to ./build (host-owned files)
+        run: docker compose --env-file "${{ inputs.env_file }}" run --rm l2-export | tar -C build -xf -
+
+      - name: List build output
+        run: ls -la build | head -n 200
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifacts
+          path: build
+          if-no-files-found: error
