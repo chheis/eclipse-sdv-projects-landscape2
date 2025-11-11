@@ -31,7 +31,7 @@ import yaml
 
 
 API_URL = (
-    "https://projects.eclipse.org/api/projects?working_group=sdv&pagesize=90000"
+    "https://projects.eclipse.org/api/projects?pagesize=900000"
 )
 
 

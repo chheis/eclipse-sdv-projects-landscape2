@@ -1,8 +1,93 @@
 categories:
-- name: Category 1
+- name: Unknown
   subcategories:
   - name: Misc
     items:
+    - name: Eclipse Adoptium®
+      description: The mission of the Eclipse Adoptium Top-Level Project is to produce
+        high-quality runtimes and associated technology for use within the Java ecosystem.
+         We achieve this through a set of Projects under...
+      homepage_url: https://projects.eclipse.org/projects/adoptium
+      project: Regular
+      repo_url: https://github.com/adoptium/dash.adoptium.net
+      logo: Logo_Adoptium_2021_03_08_JRR_RGB-V3C%20%281%29.png
+    - name: Eclipse AQAvit
+      description: Eclipse AQAvit™ is the quality and runtime branding evaluation
+        project for Java SE runtimes and associated technology.  During a release
+        it takes a functionally complete Java runtime and ensures that...
+      homepage_url: https://projects.eclipse.org/projects/adoptium.aqavit
+      project: Incubating
+      repo_url: https://github.com/adoptium/TKG
+      logo: Logo_AQAvit_2021_09_23_JRR_RGB-V1A.png
+    - name: Eclipse Migration Toolkit for Java
+      description: The Eclipse Migration Toolkit for Java is a tooling project for
+        assisting the Java version migration. The project provides static/dynamic
+        tools and documents that support the migration of Java...
+      homepage_url: https://projects.eclipse.org/projects/adoptium.emt4j
+      project: Incubating
+      repo_url: https://github.com/adoptium/emt4j
+      logo: incubating.png
+    - name: Eclipse Adoptium Incubator
+      description: The intent of the proposed Eclipse Adoptium Incubator is to foster
+        collaboration, and hopefully results in work proceeding to contribution by
+        their original authors into upstream projects, including...
+      homepage_url: https://projects.eclipse.org/projects/adoptium.incubator
+      project: Incubating
+      repo_url: https://github.com/adoptium/Incubator
+      logo: incubating.png
+    - name: Eclipse Mission Control
+      description: Eclipse Mission Control™ enables you to monitor and manage Java
+        applications without introducing the performance overhead normally associated
+        with these types of tools. It uses data collected for...
+      homepage_url: https://projects.eclipse.org/projects/adoptium.mc
+      project: Incubating
+      repo_url: https://github.com/adoptium/jmc-build
+      logo: MissionControl-MainLogo.png
+    - name: Eclipse Temurin®
+      description: The Eclipse Temurin® project provides code and processes that support the building
+        of runtime binaries and associated technologies that are high performance,
+        enterprise-caliber, cross-platform, open...
+      homepage_url: https://projects.eclipse.org/projects/adoptium.temurin
+      project: Regular
+      repo_url: https://github.com/adoptium/jenkins-helper
+      logo: Logo_Temurin_2021_08_17_JRR_RGB-V1A_0.png
+    - name: Eclipse Temurin Compliance
+      description: The Eclipse Temurin Compliance project is responsible for obtaining,
+        managing, and executing the Oracle Java SE Compatibility Kit (JCK) on Eclipse
+        Temurin binaries.  The work is done on private...
+      homepage_url: https://projects.eclipse.org/projects/adoptium.temurin-compliance
+      project: Incubating
+      logo: incubating.png
+    - name: AsciiDoc®
+      description: The AsciiDoc® Top Level Project is a collaborative, open source
+        initiative at the Eclipse Foundation to develop projects and pursue ideas
+        that advance the AsciiDoc language and its ecosystem of...
+      homepage_url: https://projects.eclipse.org/projects/asciidoc
+      project: Regular
+      logo: AsciiDoc-WG-logo-color.png
+    - name: AsciiDoc Language
+      description: AsciiDoc is a comprehensive, semantic markup language for producing
+        a variety of presentation-rich output formats from content encoded in a concise,
+        human-readable, plain text format. It also includes...
+      homepage_url: https://projects.eclipse.org/projects/asciidoc.asciidoc-lang
+      project: Incubating
+      logo: AsciiDoc-logo-color.png
+    - name: Eclipse Austen
+      description: 'AsciiDoc is a comprehensive, semantic markup language for producing
+        a variety of presentation-rich output formats from content encoded in a concise,
+        human-readable, plain text format.
+
+        This...'
+      homepage_url: https://projects.eclipse.org/projects/asciidoc.austen
+      project: Incubating
+      logo: incubating.png
+    - name: Eclipse Automotive
+      description: The Eclipse Automotive Top-Level Project provides a space for open
+        source projects to explore ideas and technologies addressing challenges in
+        the automotive, mobility and transportation domain. It is...
+      homepage_url: https://projects.eclipse.org/projects/automotive
+      project: Regular
+      logo: default.png
     - name: Eclipse ADAAA (Adaptive Cruise Control Demo Application for Adaptive AUTOSAR)
       description: 'ADAAA is example application for Adaptive AUTOSAR with the following
         goals:
@@ -13,6 +98,14 @@ categories:
       project: Archived
       repo_url: https://github.com/eclipse/adaaa
       logo: archived.png
+    - name: Eclipse Automated Driving Open Research (ADORe)
+      description: Eclipse ADORe is a modular software library and toolkit for decision
+        making, planning, control and simulation of automated vehicles. It is developed
+        by The German Aerospace Center (DLR), Institute for...
+      homepage_url: https://projects.eclipse.org/projects/automotive.adore
+      project: Incubating
+      repo_url: https://github.com/eclipse-adore/.github
+      logo: 230511_Urban_Drive_RGB_RZ_ADORE.png
     - name: Eclipse Ambient Light Services
       description: The Eclipse Ambient Light Services showcase vizualizes possible
         new lighting concepts which are adaptive to different specific driving scenarios,
@@ -28,6 +121,21 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-ankaios/.github
       logo: Ankaios__logo_for_light_bgrd_clipped.png
+    - name: Eclipse Ankaios Dashboard
+      description: The Ankaios Dashboard is the UI for the Eclipse Ankaios project.
+        It offers insights into a running Ankaios cluster, allows for modification/deletion/creation
+        of workloads and offers a dependency graph...
+      homepage_url: https://projects.eclipse.org/projects/automotive.ankaios.ankaios-dashboard
+      project: Incubating
+      repo_url: https://github.com/eclipse-ankaios-dashboard/.github
+      logo: incubating.png
+    - name: Eclipse APP4MC
+      description: "Application Platform Project for Multi Core \nEclipse APP4MC™\
+        \ is a platform for engineering embedded multi- and many-core software systems.\
+        \ The platform enables the creation and management of complex..."
+      homepage_url: https://projects.eclipse.org/projects/automotive.app4mc
+      project: Regular
+      logo: app4mc-logo-g.png
     - name: Eclipse ArchE
       description: Eclipse ArchE (Architecture Enabler) provides a tool for Architecture
         Modeling following an holistic Model-Based-Systems-Engineering (MBSE) approach
@@ -36,6 +144,23 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-arche/arche
       logo: arche_splash.png
+    - name: Eclipse Automotive API Framework
+      description: Decoupling of the application logic from the basic software stack
+        enables automotive suppliers (no matter if Tier-1 or in-house teams at an
+        OEM) to contribute with building blocks to Software-defined...
+      homepage_url: https://projects.eclipse.org/projects/automotive.autoapiframework
+      project: Incubating
+      repo_url: https://github.com/eclipse-autoapiframework/.github
+      logo: incubating.png
+    - name: Eclipse Automotive Integration for AutoSD
+      description: 'Eclipse Automotive Integration for AutoSD uses an AutoSD image,
+        built and tailored for its community, to run and test both Eclipse SDV projects
+        and blueprints.
+
+        Eclipse Automotive Integration for...'
+      homepage_url: https://projects.eclipse.org/projects/automotive.autosd
+      project: Incubating
+      logo: incubating.png
     - name: Eclipse Autowrx
       description: Eclipse Autowrx is the open source implementation of digital.auto
         (http://digital.auto), an industry-wide initiative enabling the automotive
@@ -68,11 +193,26 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-chariott/.github
       logo: chariott_image.jpg
+    - name: Eclipse Cloe™
+      description: Eclipse Cloe™ provides an enhanced middleware solution for closed-loop
+        simulations, with a focus on functional software tests on system level. Cloe
+        is used as a development tool for interactive and...
+      homepage_url: https://projects.eclipse.org/projects/automotive.cloe
+      project: Incubating
+      repo_url: https://github.com/eclipse/cloe
+      logo: incubating.png
     - name: Eclipse SDV Developer Console
       description: Eclipse SDV Developer Console (DCO) integrates necessary sources
         for software lifecycle management and there by optimizes the complete process
         from development to release of software. The core of DCO...
       homepage_url: https://projects.eclipse.org/projects/automotive.dco
+      project: Incubating
+      logo: incubating.png
+    - name: Eclipse Wheel Speed Sensor Signal Packer
+      description: Making Eclipse Wheel Speed Sensor Signal Packer a lossless packing
+        SW-module available as FOSS will avoid a multitude of proprietary solutions.
+        Instead, a generic packer SW-module shall be made...
+      homepage_url: https://projects.eclipse.org/projects/automotive.dco.wss-packer
       project: Incubating
       logo: incubating.png
     - name: Eclipse eCAL (enhanced Communication Abstraction Layer)
@@ -83,6 +223,18 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-ecal/.github
       logo: ecal_square.png
+    - name: Eclipse Connected Services Platform
+      description: 'The Eclipse Connected Services Platform (ECSP) provides a core
+        platform to serve as the foundation for developing connected car systems.
+
+        The  Eclipse CSP provides following layers and components:
+
+
+        Off...'
+      homepage_url: https://projects.eclipse.org/projects/automotive.ecsp
+      project: Incubating
+      repo_url: https://github.com/eclipse-ecsp/.github
+      logo: incubating.png
     - name: Eclipse Heimlig
       description: 'Eclipse Heimlig is a Hardware Security Module (HSM) firmware for
         embedded platforms written in Rust.
@@ -125,6 +277,24 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-leda/leda-contrib-self-update-agent
       logo: incubating.png
+    - name: Eclipse LunaDDS
+      description: 'The Eclipse LunaDDS project extends the capabilities of the established
+        Eclipse CycloneDDS middleware by enhancing performance and functionality with
+        a focus on automotive-grade requirements.
+
+        The...'
+      homepage_url: https://projects.eclipse.org/projects/automotive.lunadds
+      project: Archived
+      logo: archived.png
+    - name: Eclipse MDM|BL
+      description: 'The Eclipse MDM|BL comprises a bottom to top architecture view
+        of three parts.
+
+        The first one is a specific openMDM application model definition for the ASAM
+        ODS data storage. The standardization...'
+      homepage_url: https://projects.eclipse.org/projects/automotive.mdmbl
+      project: Regular
+      logo: logo_1.png
     - name: Eclipse MoEc
       description: 'Eclipse MoEc provides an open software development kit (SDK) for
         infrastructure-based planning, motion, parking and charging solutions within
@@ -134,6 +304,16 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.moec
       project: Archived
       logo: archived.png
+    - name: Eclipse MOSAIC™
+      description: 'Eclipse MOSAIC™ provides a multi-domain/multi-scale co-simulation
+        environment for virtual testing of connected and automated driving and mobility
+        solutions.
+
+        Eclipse MOSAIC™ comes with a runtime...'
+      homepage_url: https://projects.eclipse.org/projects/automotive.mosaic
+      project: Incubating
+      repo_url: https://github.com/eclipse-mosaic/.github
+      logo: EclipseMOSAIC-Medallion-RGB-positiv_0.png
     - name: Eclipse Muto
       description: Eclipse Muto provides an adaptive framework and a runtime platform
         for dynamically composable model-driven ROS software stacks. Eclipse Muto
@@ -158,6 +338,41 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-opendut/.github
       logo: logo_light.png
+    - name: Eclipse OpenMCx™
+      description: Eclipse OpenMCx™ is an open, tool-neutral co-simulation middleware
+        based upon Modelica [1] simulation standards, such as Functional Mock-up Interface
+        (FMI) [2] and Distributed-Co-Simulation-Protocol...
+      homepage_url: https://projects.eclipse.org/projects/automotive.openmcx
+      project: Incubating
+      repo_url: https://github.com/eclipse-openmcx/openmcx
+      logo: open_mcx_logo_1.jpg
+    - name: Eclipse openPASS
+      description: Eclipse openPASS™ (open Platform for Assessment of Safety Systems)
+        tool is a developed framework for the simulation of interaction between traffic
+        participants to evaluate and parametrize active...
+      homepage_url: https://projects.eclipse.org/projects/automotive.openpass
+      project: Incubating
+      logo: openPASS_logo-ohne-schrift_0.png
+    - name: Eclipse OpenSOVD
+      description: Eclipse OpenSOVD provides an open source implementation of the
+        Service-Oriented Vehicle Diagnostics (SOVD) standard, as defined in ISO 17978.
+        The project delivers a modular, standards-compliant...
+      homepage_url: https://projects.eclipse.org/projects/automotive.opensovd
+      project: Incubating
+      repo_url: https://github.com/eclipse-opensovd/.github
+      logo: incubating.png
+    - name: Eclipse Open Vehicle API
+      description: 'The Eclipse Open Vehicle API contains tools and a runtime to create
+        a vehicle abstraction interface for signal- and event-driven functions. 
+
+
+        Component-based
+
+        Transfer existing signal-based ECUs to HPC...'
+      homepage_url: https://projects.eclipse.org/projects/automotive.openvehicle-api
+      project: Incubating
+      repo_url: https://github.com/eclipse-openvehicle-api/openvehicle-api
+      logo: Open_Vehicle_API_v1_white_cropped.jpg
     - name: Eclipse OpenXilEnv
       description: 'Eclipse OpenXilEnv is a lightweight SIL/HIL environment that allows
         running embedded software functions on a PC without a target platform and
@@ -192,6 +407,13 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-pullpiri/.github
       logo: incubating.png
+    - name: Eclipse SCM
+      description: The Stochastic Cognitive Model (SCM) is a driver behavior model
+        for the use in multi-agent highway traffic simulations. SCM models cognitive
+        processes of human drivers ranging from gaze behavior over...
+      homepage_url: https://projects.eclipse.org/projects/automotive.scm
+      project: Incubating
+      logo: incubating.png
     - name: Eclipse Safe Open Vehicle Core
       description: The Eclipse Safe Open Vehicle Core project aims to develop an open-source
         core stack for Software Defined Vehicles (SDVs), specifically targeting embedded
@@ -208,6 +430,22 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-sdv-blueprints/.github
       logo: blueprints.png
+    - name: 'Eclipse SDV-LVL '
+      description: Just as the SAE Levels of Autonomy helped to level-set discussion
+        on autonomous driving, the Eclipse SDV-LVL defines a common terminology/taxonomy
+        for capabilities of SDV. In the field of highly...
+      homepage_url: https://projects.eclipse.org/projects/automotive.sdv-lvl
+      project: Incubating
+      repo_url: https://github.com/eclipse-sdv-lvl/.github
+      logo: incubating.png
+    - name: Eclipse SKyBT - Smart Keyword Based Testing
+      description: 'Eclipse SKyBT (Smart Keyword Based Testing)
+
+        The core idea of Eclipse SKyBT: Based on our experience from numerous projects,
+        the success factor of testing lies in the test design, everything else can...'
+      homepage_url: https://projects.eclipse.org/projects/automotive.skybt
+      project: Incubating
+      logo: SKyBT_2.0_Icon_512.png
     - name: Eclipse SommR
       description: 'Eclipse SommR provides an automotive grade implementation of the
         SomeIP specification for embedded Linux systems together with the required
@@ -217,6 +455,32 @@ categories:
       homepage_url: https://projects.eclipse.org/projects/automotive.sommr
       project: Archived
       logo: archived.png
+    - name: Eclipse Sphinx
+      description: 'Eclipse Sphinx™ provides a modeling tool platform for Eclipse
+        that eases the development of IDE-like tool support for modeling languages
+        used in software and systems development.
+
+
+        Workspace Management...'
+      homepage_url: https://projects.eclipse.org/projects/automotive.sphinx
+      project: Incubating
+      logo: sphinx_logo.png
+    - name: Eclipse SUMO™
+      description: Eclipse Simulation of Urban Mobility (Eclipse SUMO™) is a free
+        and open traffic simulation toolsuite. SUMO allows modelling and analyzing
+        intermodal traffic systems, including road vehicles, public...
+      homepage_url: https://projects.eclipse.org/projects/automotive.sumo
+      project: Regular
+      repo_url: https://github.com/eclipse-sumo/.github
+      logo: SUMO-Icon-and-Font-small.png
+    - name: Eclipse Tractus-X
+      description: Eclipse Tractus-X™ - Where we build dataspaces! Is a collaborative,
+        open-source project aimed at driving the digital transformation of the various industries,
+        including automotive, manufacturing...
+      homepage_url: https://projects.eclipse.org/projects/automotive.tractusx
+      project: Regular
+      repo_url: https://github.com/eclipse-tractusx/.github
+      logo: logo_tractus-x.png
     - name: Eclipse uProtocol
       description: Eclipse uProtocol provides a transport agnostic, layered communication
         protocol that is deployment, OS, and device (vehicle, cloud, mobile phone,
@@ -235,31 +499,347 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-velocitas/.github
       logo: logo_02_rgb_0.png
-    - name: Eclipse Symphony
-      description: Eclipse Symphony enables end-to-end orchestration experience and
-        addresses it as a distinct concern. Its objective is to provide an easy-to-adopt,
-        cost-effective, and consistent application...
-      homepage_url: https://projects.eclipse.org/projects/iot.symphony
+    - name: Eclipse Winery
+      description: Eclipse Winery is a web-based environment to graphically model
+        TOSCA topologies and plans managing these topologies. The environment includes
+        a type and template management component to offer creation...
+      homepage_url: https://projects.eclipse.org/projects/automotive.winery
       project: Incubating
-      repo_url: https://github.com/eclipse-symphony/.github
-      logo: symphony%20icon_smalltext.png
-    - name: Eclipse ThreadX
-      description: 'Eclipse ThreadX® provides a vendor-neutral, open source, safety
-        certified OS for real-time applications published under a permissive license.
-
-        The Eclipse ThreadX suite encompasses:
-
-
-        ThreadX - advanced...'
-      homepage_url: https://projects.eclipse.org/projects/iot.threadx
+      repo_url: https://github.com/winery/.github
+      logo: incubating.png
+    - name: Eclipse Data Tools SQL Dev Tools
+      description: ''
+      homepage_url: https://projects.eclipse.org/projects/datatools.sqltools
+      project: Archived
+      logo: archived.png
+    - name: Eclipse Digital Twin
+      description: Eclipse Digital Twin Top-Level Project is a collaborative, open
+        source initiative at the Eclipse Foundation fostering the development of reference
+        implementations for the activities driven by the Indu...
+      homepage_url: https://projects.eclipse.org/projects/dt
+      project: Regular
+      logo: Eclipse%20Logo%20Blau_0.png
+    - name: Eclipse AAS Model for Java
+      description: Eclipse AAS Model for Java implements the specification of the
+        Asset Administration Shell (AAS) such as metamodels, submodels, serialization
+        and deserialization modules, validators, and transformation...
+      homepage_url: https://projects.eclipse.org/projects/dt.aas4j
       project: Incubating
-      repo_url: https://github.com/eclipse-threadx/.github
-      logo: ThreadX-Color-portrait.png
-    - name: Eclipse Zenoh
-      description: Eclipse Zenoh provides is a stack  designed to (1) minimize network
-        overhead, (2) support extremely constrained devices, (3) supports devices
-        with low duty-cycle by allowing the negotiation of data...
-      homepage_url: https://projects.eclipse.org/projects/iot.zenoh
+      repo_url: https://github.com/eclipse-aas4j/.github
+      logo: Eclipse_AAS4J_Logo.png
+    - name: Eclipse AASX Package Explorer and Server
+      description: 'Eclipse AASX Package Explorer and Server is a suite for viewing,
+        creating, editing and hosting Industrie 4.0 Asset Administration Shell packages.
+
+        Eclipse AASX Package Explorer is a tool with graphical...'
+      homepage_url: https://projects.eclipse.org/projects/dt.aaspe
       project: Incubating
-      repo_url: https://github.com/eclipse-zenoh/.github
-      logo: Zenoh%20-%20icon%20-%20dark.png
+      repo_url: https://github.com/eclipse-aaspe/.github
+      logo: favicon-96x96.png
+    - name: Eclipse AASPortal
+      description: Eclipse AASPortal provides a web portal for the visualization and
+        management of Asset Administration Shells (AAS). It focuses on an efficient
+        implementation of web based views and user interfaces for...
+      homepage_url: https://projects.eclipse.org/projects/dt.aasportal
+      project: Incubating
+      repo_url: https://github.com/eclipse-aasportal/.github
+      logo: AASPortal_mid.png
+    - name: Eclipse AAS Web Client
+      description: Eclipse AAS Web Client is a viewer and client for interaction with
+        Asset Administration Shell information models. The data corresponding to the
+        Asset Administration Shell models are exchanged via a...
+      homepage_url: https://projects.eclipse.org/projects/dt.aaswc
+      project: Incubating
+      repo_url: https://github.com/eclipse-aaswc/.github
+      logo: incubating.png
+    - name: Eclipse BaSyx
+      description: Eclipse BaSyx™ implements an open-source Industry 4.0 middleware
+        based on the Asset Administration Shell that enables the shopfloor digitization. We
+        provide mandatory Industry 4.0 software components...
+      homepage_url: https://projects.eclipse.org/projects/dt.basyx
+      project: Incubating
+      repo_url: https://github.com/eclipse-basyx/.github
+      logo: Logo_BaSyx_neu_1024px.png
+    - name: Eclipse Semantic Modeling Framework (ESMF)
+      description: 'Model aspects of digital twins to create APIs & UIs based on semantic
+        information.
+
+        ESMF Project Documentation: https://eclipse-esmf.github.io/ (github org: eclipse-esmf).
+
+        What the ESMF is about:
+
+        A...'
+      homepage_url: https://projects.eclipse.org/projects/dt.esmf
+      project: Incubating
+      repo_url: https://github.com/eclipse-esmf/.github
+      logo: 01_ESMF-Icon_Color.png
+    - name: Eclipse FA³ST
+      description: Eclipse FA³ST aims to provide an implementation of the re-active
+        (or type 2) Asset Administration Shell according to the Asset Administration
+        Shell (AAS) specification by Plattform Industrie 4.0.  In...
+      homepage_url: https://projects.eclipse.org/projects/dt.fa3st
+      project: Incubating
+      repo_url: https://github.com/eclipse-fa3st/.github
+      logo: incubating.png
+    - name: Eclipse Mnestix
+      description: 'AAS made easy! - Eclipse Mnestix AAS Browser is the easy entry
+        to the world of Asset Administration Shells (AAS) and is an easy-to-use browser
+        for AAS.
+
+        The Eclipse Mnestix AAS Browser is basically a...'
+      homepage_url: https://projects.eclipse.org/projects/dt.mnestix
+      project: Incubating
+      repo_url: https://github.com/eclipse-mnestix/.github
+      logo: android-chrome-192x192.png
+    - name: Eclipse Service Lifecycle Management
+      description: Eclipse Service Lifecycle Management (SLM) provides a set of applications
+        to manage the lifecycle of AI (artificial intelligence) services in production
+        environments. The service lifecycle consists of...
+      homepage_url: https://projects.eclipse.org/projects/dt.slm
+      project: Incubating
+      repo_url: https://github.com/eclipse-slm/.github
+      logo: FabOS_logo_compact.png
+    - name: Eclipse Cloud Development
+      description: The mission of ECD is to create technologies, platforms, and tools
+        necessary to enable the delivery of highly integrated cloud development and
+        cloud developer environments. Our vision is to meet the...
+      homepage_url: https://projects.eclipse.org/projects/ecd
+      project: Regular
+      logo: default.png
+    - name: Eclipse CDT Cloud
+      description: Eclipse CDT Cloud hosts components and best practices for building
+        customizable web-based C/C++ tools. As a demonstration of how these components
+        can be integrated with each other, CDT Cloud provides...
+      homepage_url: https://projects.eclipse.org/projects/ecd.cdt-cloud
+      project: Incubating
+      repo_url: https://github.com/eclipse-cdt-cloud/.github
+      logo: CDTCloudLogoShort.png
+    - name: Eclipse Tools for Cloud Foundry
+      description: Eclipse Tools for Cloud Foundry (CFT) provide an extensible framework
+        and common UI to deploy applications to different Cloud Foundry targets, and
+        it is a framework that closely integrates with Web...
+      homepage_url: https://projects.eclipse.org/projects/ecd.cft
+      project: Regular
+      repo_url: https://github.com/eclipse-cft/cft
+      logo: default.png
+    - name: Eclipse Che
+      description: Eclipse Che™ is an open-source system to provision containerized
+        development environments, IDEs included, in Kubernetes clusters. Learn more
+        at http://www.eclipse.org/che.
+      homepage_url: https://projects.eclipse.org/projects/ecd.che
+      project: Incubating
+      repo_url: https://github.com/eclipse/che-theia-github-plugin
+      logo: logo-eclipseche.png
+    - name: Eclipse Che4z
+      description: Eclipse Che is an open-source, next-generation development platform,
+        leveraging container technology which offers a more streamlined on-boarding
+        process for new developers to ensure they have the...
+      homepage_url: https://projects.eclipse.org/projects/ecd.che.che4z
+      project: Incubating
+      repo_url: https://github.com/eclipse-che4z/.github
+      logo: incubating.png
+    - name: Eclipse Codewind
+      description: 'Eclipse Codewind will start by providing an IDE-agnostic library
+        for tools required for cloud application development:
+
+
+        Generating projects from templates
+
+        Creating a template or example from a current...'
+      homepage_url: https://projects.eclipse.org/projects/ecd.codewind
+      project: Archived
+      repo_url: https://github.com/eclipse/codewind-eclipse
+      logo: archived.png
+    - name: Eclipse Dirigible™
+      description: 'Overview
+
+        Eclipse Dirigible™ provides capabilities for end-to-end development process
+        from database modeling and management, through RESTful services authoring
+        using various dynamic languages, to...'
+      homepage_url: https://projects.eclipse.org/projects/ecd.dirigible
+      project: Regular
+      repo_url: https://github.com/eclipse-dirigible/.github
+      logo: dirigible-logo-2Kx2K.png
+    - name: Eclipse EMF Cloud
+      description: Eclipse EMF Cloud™ comprises a set of components that facilitate
+        and simplify the adoption of the Eclipse Modeling Framework (EMF) in cloud-based
+        applications. Thus, the overarching theme of EMF Cloud...
+      homepage_url: https://projects.eclipse.org/projects/ecd.emfcloud
+      project: Incubating
+      repo_url: https://github.com/eclipse-emfcloud/.github
+      logo: logo_6.png
+    - name: Eclipse Flux
+      description: The development tooling landscape is changing and moving towards
+        cloud-based developer tooling. While this movement is what everybody is talking
+        about, a clear vision of how cloud-based developer...
+      homepage_url: https://projects.eclipse.org/projects/ecd.flux
+      project: Archived
+      repo_url: https://github.com/eclipse/flux
+      logo: archived.png
+    - name: Eclipse GLSP
+      description: Eclipse GLSP™ provides extensible components to enable the development
+        of diagram editors including edit functionality in (distributed) web-applications
+        via a client-server protocol. By applying the...
+      homepage_url: https://projects.eclipse.org/projects/ecd.glsp
+      project: Regular
+      repo_url: https://github.com/eclipse-glsp/.github
+      logo: clouddigram-logo-1c-800px.png
+    - name: Eclipse JKube™
+      description: 'Cloud-Native Java Applications without a hassle
+
+        Eclipse JKube™ is a collection of plugins and libraries that are used for
+        building container images using Docker, JIB or S2I build strategies.
+
+        Eclipse...'
+      homepage_url: https://projects.eclipse.org/projects/ecd.jkube
+      project: Regular
+      repo_url: https://github.com/eclipse-jkube/.github
+      logo: JKube-Logo-final-horizontal-color.png
+    - name: Eclipse Langium
+      description: Eclipse Langium is a toolkit for domain-specific languages (DSLs)
+        that is fully built with TypeScript. It provides a text parser with integrated
+        cross-reference resolution and a language server for...
+      homepage_url: https://projects.eclipse.org/projects/ecd.langium
+      project: Incubating
+      repo_url: https://github.com/eclipse-langium/.github
+      logo: Langium_Feder_vorn_links.png
+    - name: Eclipse Novamoon
+      description: 'Eclipse Novamoon offers a full stack low code platform providing
+        all services to build business applications :
+
+
+        Low Code back end flows
+
+        Low code Data access layers to SQL
+
+        Low Code REST API Connectors...'
+      homepage_url: https://projects.eclipse.org/projects/ecd.novamoon
+      project: Incubating
+      logo: incubating.png
+    - name: Eclipse Open Collaboration Tools
+      description: Eclipse Open Collaboration Tools is a set of libraries, extensions
+        and tools for integrating collaborative editing with multiple editing paradigms
+        (textual, graphical, etc.) and in multiple IDEs or...
+      homepage_url: https://projects.eclipse.org/projects/ecd.oct
+      project: Incubating
+      repo_url: https://github.com/eclipse-oct/oct-eclipse
+      logo: incubating.png
+    - name: Eclipse OpenSmartCLIDE
+      description: The Eclipse OpenSmartCLIDE is based on Eclipse Theia, which provides
+        all of the tools necessary for development. Theia consists of a rich interface
+        with a vast range of features that accelerate...
+      homepage_url: https://projects.eclipse.org/projects/ecd.opensmartclide
+      project: Incubating
+      repo_url: https://github.com/eclipse-opensmartclide/.github
+      logo: OpenSmartClideRGB-Color-500x500.png
+    - name: Eclipse Open VSX
+      description: Eclipse Open VSX is a vendor-neutral open-source alternative to
+        the Visual Studio Marketplace. It provides a server application that manages
+        VS Code extensions in a database, a web application similar...
+      homepage_url: https://projects.eclipse.org/projects/ecd.openvsx
+      project: Incubating
+      repo_url: https://github.com/eclipse/openvsx
+      logo: open-vsx-logo-withouttext.png
+    - name: Eclipse Orion
+      description: The Eclipse Orion Project's objective is to create a browser-based
+        open tool integration platform which is entirely focused on developing for
+        the web, in the web. Tools are written in JavaScript and...
+      homepage_url: https://projects.eclipse.org/projects/ecd.orion
+      project: Archived
+      repo_url: https://github.com/eclipse/orion.electron
+      logo: archived.png
+    - name: Eclipse Sprotty
+      description: 'Eclipse Sprotty™ is a next-generation, open-source, web-based
+        diagramming framework.
+
+        Instead of using a cross-compiler or an existing framework, we decided to
+        start from scratch with web technologies...'
+      homepage_url: https://projects.eclipse.org/projects/ecd.sprotty
+      project: Regular
+      repo_url: https://github.com/eclipse-sprotty/.github
+      logo: Sprotty_Logo-Full_Color-filled-RGB-500px.png
+    - name: Eclipse Theia
+      description: 'The Eclipse Theia™ project provides the Eclipse Theia Platform
+        and the Theia IDE. (built on the Theia Platform)
+
+
+        Theia Platform homepage.
+
+        Theia IDE homepage.
+
+
+        The Eclipse Theia Platform is an...'
+      homepage_url: https://projects.eclipse.org/projects/ecd.theia
+      project: Regular
+      repo_url: https://github.com/eclipse-theia/.github
+      logo: theia.png
+    - name: Eclipse Project
+      description: The Eclipse Top-Level Project provides a robust, full-featured,
+        commercial-quality, industrial-strength platform for the development of highly-integrated
+        tools and rich client applications.
+      homepage_url: https://projects.eclipse.org/projects/eclipse
+      project: Regular
+      logo: eclipse-logo-large.png
+    - name: Eclipse e4 Project
+      description: 'Eclipse e4 is the incubator for the Eclipse project. Building
+        on current Eclipse and OSGi technology as a solid foundation, its major goals
+        include
+
+
+        Making it easier to write plugins
+
+        Allowing better...'
+      homepage_url: https://projects.eclipse.org/projects/eclipse.e4
+      project: Archived
+      logo: archived.png
+    - name: Eclipse Equinox
+      description: From a code point of view, Eclipse Equinox™ is an implementation
+        of the OSGi core framework specification, a set of bundles that implement
+        various optional OSGi services and other infrastructure for...
+      homepage_url: https://projects.eclipse.org/projects/eclipse.equinox
+      project: Regular
+      repo_url: https://github.com/eclipse-equinox/.github
+      logo: equinox_large.png
+    - name: Eclipse Project Incubator
+      description: ''
+      homepage_url: https://projects.eclipse.org/projects/eclipse.incubator
+      project: Archived
+      logo: archived.png
+    - name: E4
+      description: ''
+      homepage_url: https://projects.eclipse.org/projects/eclipse.incubator.e4
+      project: Archived
+      logo: archived.png
+    - name: Platform Incubator
+      description: ''
+      homepage_url: https://projects.eclipse.org/projects/eclipse.incubator.platform
+      project: Archived
+      logo: archived.png
+    - name: UFaceKit
+      description: ''
+      homepage_url: https://projects.eclipse.org/projects/eclipse.incubator.ufacekit
+      project: Archived
+      logo: archived.png
+    - name: Eclipse JDT (Java development tools)
+      description: The Eclipse JDT™ project provides the tool plug-ins that implement
+        a Java IDE supporting the development of any Java application, including Eclipse
+        plug-ins. It adds a Java project nature and Java...
+      homepage_url: https://projects.eclipse.org/projects/eclipse.jdt
+      project: Regular
+      repo_url: https://github.com/eclipse-jdt/.github
+      logo: default.png
+    - name: JDT Core
+      description: This project has been merged into eclipse.jdt
+      homepage_url: https://projects.eclipse.org/node/224
+      project: Archived
+      logo: archived.png
+    - name: JDT Debug
+      description: 'This project has been merged into eclipse.jdt
+
+         
+
+        JDT Debug implements Java debugging support and works with any JDPA-compliant
+        target Java VM. It is implemented on top of the language independent...'
+      homepage_url: https://projects.eclipse.org/projects/eclipse.jdt.debug
+      project: Archived
+      logo: archived.png
