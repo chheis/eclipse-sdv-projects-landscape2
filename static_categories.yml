@@ -9,6 +9,7 @@ categories:
           - Eclipse Autowrx
           - Eclipse SDV Developer Console
           - Eclipse Velocitas
+          - Eclipse Open Vehicle API
       - name: Testing & Validation
         items:
           - Eclipse OpenXilEnv
@@ -17,7 +18,8 @@ categories:
         items:
           - Eclipse Muto
       - name: Process & Frameworks
-        items: []
+        items:
+          - Eclipse Trustable Software Framework
   - name: Distributions and Frameworks
     subcategories:
       - name: Distributions
@@ -25,7 +27,10 @@ categories:
           - Eclipse Leda
           - Eclipse Leda Incubator
           - Eclipse OpenBSW
-          - Eclipse Safe Open Vehicle Core (S‑CORE)
+          - Eclipse Safe Open Vehicle Core
+          - Eclipse Automotive API Framework
+          - Eclipse Automotive Integration for AutoSD
+          - Eclipse SDV Blueprints
   - name: RTOS
     subcategories:
       - name: RTOS
@@ -37,18 +42,25 @@ categories:
         items:
           - Eclipse Ambient Light Services
           - Eclipse Muto
+          - Eclipse ADAAA (Adaptive Cruise Control Demo Application for Adaptive AUTOSAR)
   - name: Service Fabric and Communication
     subcategories:
       - name: Middleware & Frameworks
         items:
           - Eclipse p3com
           - Eclipse eCAL (enhanced Communication Abstraction Layer)
-          - Eclipse KUKSA
+          - Eclipse Kuksa
           - Eclipse Chariott
           - Eclipse Zenoh
-      - name: Communication Protocol
+          - Eclipse Heimlig
+      - name: Communication Protocols
+        items:
+          - Eclipse CANought
+          - Eclipse iceoryx
+      - name: Service Mesh
         items:
           - Eclipse uProtocol
+          - Eclipse OpenSOVD
       - name: Digital Twin
         items:
           - Eclipse Ibeji
@@ -59,4 +71,9 @@ categories:
           - Eclipse Pullpiri
           - Eclipse Ankaios
           - Eclipse Symphony
-          - Eclipse BlueChi
+          - Eclipse BlueChi™
+  - name: AI
+    subcategories:
+      - name: AI
+        items:
+          - Eclipse LMOS

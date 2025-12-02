@@ -52,6 +52,7 @@ groups:
       - Example Applications
       - Service Fabric and Communication
       - Runtime and Orchestration
+      - AI
       - Unmapped
 
 header:
