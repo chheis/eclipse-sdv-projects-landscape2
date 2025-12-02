@@ -1,0 +1,62 @@
+categories:
+  - name: Tooling Devops
+    subcategories:
+      - name: Design
+        items:
+          - Eclipse ArchE
+      - name: Development
+        items:
+          - Eclipse Autowrx
+          - Eclipse SDV Developer Console
+          - Eclipse Velocitas
+      - name: Testing & Validation
+        items:
+          - Eclipse OpenXilEnv
+          - Eclipse openDuT
+      - name: Deployment
+        items:
+          - Eclipse Muto
+      - name: Process & Frameworks
+        items: []
+  - name: Distributions and Frameworks
+    subcategories:
+      - name: Distributions
+        items:
+          - Eclipse Leda
+          - Eclipse Leda Incubator
+          - Eclipse OpenBSW
+          - Eclipse Safe Open Vehicle Core (S‑CORE)
+  - name: RTOS
+    subcategories:
+      - name: RTOS
+        items:
+          - Eclipse ThreadX
+  - name: Example Applications
+    subcategories:
+      - name: Example Applications
+        items:
+          - Eclipse Ambient Light Services
+          - Eclipse Muto
+  - name: Service Fabric and Communication
+    subcategories:
+      - name: Middleware & Frameworks
+        items:
+          - Eclipse p3com
+          - Eclipse eCAL (enhanced Communication Abstraction Layer)
+          - Eclipse KUKSA
+          - Eclipse Chariott
+          - Eclipse Zenoh
+      - name: Communication Protocol
+        items:
+          - Eclipse uProtocol
+      - name: Digital Twin
+        items:
+          - Eclipse Ibeji
+  - name: Runtime and Orchestration
+    subcategories:
+      - name: Workload & Container Orchestration
+        items:
+          - Eclipse Pullpiri
+          - Eclipse Ankaios
+          - Eclipse Symphony
+          - Eclipse BlueChi
