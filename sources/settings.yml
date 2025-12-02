@@ -11,13 +11,33 @@ url: http://127.0.0.1:8000
 base_path: /eclipse-sdv-projects-landscape2
 
 colors:
-  color1: "rgba(240, 108, 1, 1)"
-  color2: "rgba(255, 0, 170, 1)"
-  color3: "rgba(96, 149, 214, 1)"
-  color4: "rgba(0, 42, 81, 0.7)"
-  color5: "rgba(1, 107, 204, 0.7)"
-  color6: "rgba(0, 42, 81, 0.7)"
-  color7: "rgba(180, 219, 255, 1)"
+  # Primary accent colour – matches the orange call‑to‑action buttons on
+  # the SDV site (luminous‑vivid‑orange: #ff6900)
+  color1: "rgba(255, 105, 0, 1)"
+
+  # Secondary accent colour – drawn from the luminous dusk gradient’s
+  # mid‑tone purple (#c751c0) used in the site’s gradient backgrounds【31089879366913†L31-L34】.
+  color2: "rgba(199, 81, 192, 1)"
+
+  # Tertiary colour – a deep blue from the same gradient (#4158d0). It
+  # balances the warm tones and appears in the site’s gradient highlights【31089879366913†L31-L34】.
+  color3: "rgba(65, 88, 208, 1)"
+
+  # Dark background shade – a semi‑transparent navy for overlays and
+  # backgrounds. This approximates the darker tones on the SDV site.
+  color4: "rgba(21, 31, 64, 0.7)"
+
+  # Highlight colour – a golden amber (#fcb900), used in the site’s
+  # gradient transitions and icon highlights【31089879366913†L31-L34】.
+  color5: "rgba(252, 185, 0, 1)"
+
+  # Accent shade – a semi‑transparent dark magenta to complement the
+  # purple tones. Useful for hover states or subtle overlays.
+  color6: "rgba(143, 37, 103, 0.7)"
+
+  # Light highlight – a pastel orange/yellow (#ffcb70) from the
+  # luminous dusk gradient, suitable for backgrounds or muted accents【31089879366913†L31-L34】.
+  color7: "rgba(255, 203, 112, 1)"
 
 description: Eclipse SDV
 
