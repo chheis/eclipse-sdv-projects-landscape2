@@ -44,13 +44,15 @@ footer:
 grid_items_size: large
 
 groups:
-  - name: Some categories
+  - name: SDV Projects
     categories:
-      - Category 1
-      - Category 2
-  - name: Only category 2
-    categories:
-      - Category 2
+      - Tooling Devops
+      - Distributions and Frameworks
+      - RTOS
+      - Example Applications
+      - Service Fabric and Communication
+      - Runtime and Orchestration
+      - Unmapped
 
 header:
   links:
