@@ -5,28 +5,130 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/guide.yml
 
 categories:
-  - category: "Category 1"
+  - category: Tooling DevOps
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Tooling & DevOps covers all tools and platforms that support the complete
+      lifecycle of Software-Defined Vehicles (SDVs) – from architecture and
+      development to testing, deployment, and operations.
 
+      This category addresses the increasing complexity of SDV systems and enables
+      scalable, automated, and repeatable development processes across teams
+      and organizations.
     subcategories:
-      - subcategory: "Subcategory 1-1"
+      - subcategory: Design
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Design tools support architecture, system, and software design for
+          Software-Defined Vehicles. They act as a “single source of truth” for
+          system models and enable early validation of dependencies, resource usage,
+          safety, and security aspects.
 
-      - subcategory: "Subcategory 1-2"
+          Typical use cases include model-based systems engineering (MBSE),
+          architecture reviews, and system-level simulations.
+
+      - subcategory: Development
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Development tools accelerate the implementation of in-vehicle software
+          and cloud-based vehicle services. They provide SDKs, frameworks, CLIs,
+          and development environments for modern, service-oriented vehicle software.
 
-  - category: "Category 2"
+          The primary focus is on developer experience, reusability, and
+          cloud-native development workflows.
+
+      - subcategory: Testing & Validation
+        content: |
+          This subcategory includes tools for simulation, test automation, and
+          validation of vehicle software. It supports SIL, HIL, and virtual test
+          environments to enable early detection of defects.
+
+          Testing & Validation is a key enabler for continuous integration and
+          functional safety in SDV architectures.
+
+      - subcategory: Deployment
+        content: |
+          Deployment solutions enable the secure rollout, update, and management
+          of software on vehicles and edge systems. This includes OTA mechanisms,
+          application deployment, and lifecycle management.
+
+          They form the bridge between cloud-based development and in-vehicle
+          runtime environments.
+
+  - category: Service Fabric and Communication
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      This category describes the foundational communication and integration
+      layer of Software-Defined Vehicles. It ensures that services, ECUs, and
+      external systems can communicate efficiently, securely, and at scale.
 
+      Service Fabric and Communication components are essential for building
+      modular, distributed, and service-oriented SDV platforms.
     subcategories:
-      - subcategory: "Subcategory 2-1"
+      - subcategory: Middleware & Frameworks
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Middleware abstracts underlying vehicle hardware and communication
+          mechanisms. It provides unified APIs for data access, service interaction,
+          and vehicle functions.
 
-      - subcategory: "Subcategory 2-2"
+          Frameworks in this subcategory form the basis for portable and
+          service-oriented vehicle software architectures.
+
+      - subcategory: Communication Protocols
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Communication protocols define how data and services are exchanged
+          between vehicle components, edge nodes, and cloud systems.
+
+          The focus is on scalability, real-time capabilities, and
+          transport-agnostic communication.
+
+      - subcategory: Digital Twin
+        content: |
+          Digital Twin technologies represent the state and capabilities of a
+          vehicle or vehicle system in digital form. They enable simulation,
+          analysis, and control throughout the entire lifecycle.
+
+          Digital twins are a key concept for modern Software-Defined Vehicle
+          platforms and cloud-to-vehicle integration.
+
+  - category: Runtime and Orchestration
+    content: |
+      This category focuses on the execution of software inside the vehicle.
+      It includes runtime environments, orchestration, and service management
+      across multiple ECUs and computing platforms.
+
+      Runtime and Orchestration solutions enable dynamic, flexible, and
+      maintainable SDV software deployments.
+    subcategories:
+      - subcategory: Workload & Container Orchestration
+        content: |
+          Orchestration platforms manage the execution, scaling, and interaction
+          of software workloads in the vehicle. They enable containerized and
+          service-oriented architectures even in resource-constrained environments.
+
+          The goal is deterministic, secure, and manageable operation of
+          Software-Defined Vehicle software.
+
+  - category: Distributions and Frameworks
+    content: |
+      This category includes complete software stacks, reference platforms,
+      and frameworks for Software-Defined Vehicles. They combine operating
+      systems, middleware, and management components into integrated SDV
+      platforms.
+
+      Distributions and frameworks accelerate adoption and provide a solid
+      foundation for building SDV solutions.
+
+  - category: RTOS
+    content: |
+      Real-Time Operating Systems (RTOS) provide deterministic execution,
+      low latency, and high reliability for safety-critical vehicle functions.
+
+      RTOS form the foundation for time-critical control and real-time
+      applications in Software-Defined Vehicles.
+
+  - category: Example Applications
+    content: |
+      Example Applications demonstrate concrete use cases and reference
+      implementations for Software-Defined Vehicles. They show how SDV
+      building blocks can be combined in real-world scenarios.
+
+      They serve as learning resources and entry points for developers,
+      architects, and system integrators.
+
