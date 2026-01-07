@@ -5,7 +5,18 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/guide.yml
 
 categories:
-  - category: Tooling DevOps
+  - category: AI
+    content: |
+      The AI category includes technologies that enable artificial intelligence
+      and machine learning capabilities in Software-Defined Vehicles.
+      
+      It supports data-driven vehicle functions such as perception, prediction,
+      and optimization across in-vehicle and cloud environments.
+    subcategories:
+      - subcategory: AI
+        content: |
+          See main description
+  - category: Tooling Devops
     content: |
       Tooling & DevOps covers all tools and platforms that support the complete
       lifecycle of Software-Defined Vehicles (SDVs) – from architecture and
@@ -42,6 +53,18 @@ categories:
 
           Testing & Validation is a key enabler for continuous integration and
           functional safety in SDV architectures.
+      - subcategory: Process & Frameworks
+        content: |
+          The Process & Frameworks category covers methodologies, reference
+          frameworks, and governance models that support the structured development,
+          operation, and evolution of Software-Defined Vehicle (SDV) platforms.
+
+          It includes processes for software lifecycle management, collaboration,
+          compliance, and standardization, as well as frameworks that enable
+          consistent implementation across projects and organizations.
+
+          Process & Frameworks provide the foundation for scalable development,
+          interoperability, and long-term maintainability of SDV ecosystems.
 
       - subcategory: Deployment
         content: |
@@ -69,6 +92,20 @@ categories:
 
           Frameworks in this subcategory form the basis for portable and
           service-oriented vehicle software architectures.
+      - subcategory: Service Mesh
+        content: |
+          The Service Mesh category covers technologies that manage and secure
+          service-to-service communication within Software-Defined Vehicle (SDV)
+          platforms.
+
+          A service mesh provides dedicated infrastructure capabilities such as
+          service discovery, traffic management, observability, and policy
+          enforcement, independent of application logic.
+
+          In SDV architectures, service meshes enable reliable and scalable
+          communication between distributed vehicle services across ECUs, zones,
+          edge nodes, and cloud environments, while supporting security,
+          resilience, and operational visibility.
 
       - subcategory: Communication Protocols
         content: |
@@ -114,6 +151,13 @@ categories:
 
       Distributions and frameworks accelerate adoption and provide a solid
       foundation for building SDV solutions.
+    subcategories:
+      - subcategory: Distributions
+        content: |
+          This category includes complete software stacks, reference platforms,
+          and frameworks for Software-Defined Vehicles. They combine operating
+          systems, middleware, and management components into integrated SDV
+          platforms.
 
   - category: RTOS
     content: |
@@ -122,6 +166,10 @@ categories:
 
       RTOS form the foundation for time-critical control and real-time
       applications in Software-Defined Vehicles.
+    subcategories:
+      - subcategory: RTOS
+        content: |
+          See main description      
 
   - category: Example Applications
     content: |
@@ -131,4 +179,8 @@ categories:
 
       They serve as learning resources and entry points for developers,
       architects, and system integrators.
+    subcategories:
+      - subcategory: Example Applications
+        content: |
+          See main description
 
