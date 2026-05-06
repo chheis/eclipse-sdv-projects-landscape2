@@ -59,7 +59,22 @@ docker compose --env-file .env.latest run --rm l2-build
 
 # Collect new data from Eclipse Projects API (with static categories)
 Hint: execute in the root folder
-Modifiy the static_categories.yml to map all the projects static. 
+Modify the `static_categories.yml` to map all the projects statically.
+
+**Prerequisites:** Python 3.9+ with the required packages:
 ```shell
-python ./tools/generate_data_static.py --categories static_categories.yml --output data.yml 
+pip install requests pyyaml
 ```
+
+**Linux / macOS:**
+```shell
+python ./tools/generate_data_static.py --categories static_categories.yml --output data.yml
+```
+
+**Windows (PowerShell or Command Prompt):**
+```powershell
+python .\tools\generate_data_static.py --categories static_categories.yml --output data.yml
+```
+
+> **Note for Windows users:** Use `python` (not `python3`) in the command above. If `python` is not found, ensure Python is added to your `PATH` during installation, or use the full path to your Python executable (e.g. `py .\tools\generate_data_static.py ...`).
+
