@@ -34,16 +34,6 @@ categories:
       - repo_url: https://github.com/eclipse-autowrx/sample-replit-plugin
       - repo_url: https://github.com/eclipse-autowrx/digital.auto-RIVOS-blueprint
       - repo_url: https://github.com/eclipse-autowrx/SDV4EE-demo
-      - repo_url: https://github.com/eclipse-autowrx/instance-setup
-      - repo_url: https://github.com/eclipse-autowrx/widget-3d-car-unity
-      - repo_url: https://github.com/eclipse-autowrx/dreamKIT
-      - repo_url: https://github.com/eclipse-autowrx/backend-core
-      - repo_url: https://github.com/eclipse-autowrx/sdv-runtime
-      - repo_url: https://github.com/eclipse-autowrx/inventory
-      - repo_url: https://github.com/eclipse-autowrx/docs
-      - repo_url: https://github.com/eclipse-autowrx/instance-overlay
-      - repo_url: https://github.com/eclipse-autowrx/ui-automation-test
-      - repo_url: https://github.com/eclipse-autowrx/.github
       logo: incubating.png
     - name: Eclipse SDV Developer Console
       description: Eclipse SDV Developer Console (DCO) integrates necessary sources
@@ -71,6 +61,7 @@ categories:
       - repo_url: https://github.com/eclipse-velocitas/vehicle-app-template
       - repo_url: https://github.com/eclipse-velocitas/pkg-velocitas-main
       - repo_url: https://github.com/eclipse-velocitas/vehicle-app-python-template
+      - repo_url: https://github.com/eclipse-velocitas/vehicle-app-python-sdk
       logo: logo_02_rgb_0.png
     - name: Eclipse Open Vehicle API
       description: 'The Eclipse Open Vehicle API contains tools and a runtime to create
@@ -142,13 +133,6 @@ categories:
       - repo_url: https://github.com/eclipse-muto/docs
       - repo_url: https://github.com/eclipse-muto/dashboard-device
       - repo_url: https://github.com/eclipse-muto/liveui
-      - repo_url: https://github.com/eclipse-muto/liveui-react-native
-      - repo_url: https://github.com/eclipse-muto/dashboard-stack
-      - repo_url: https://github.com/eclipse-muto/dashboard
-      - repo_url: https://github.com/eclipse-muto/liveui-core
-      - repo_url: https://github.com/eclipse-muto/liveui-react
-      - repo_url: https://github.com/eclipse-muto/liveui-vue
-      - repo_url: https://github.com/eclipse-muto/liveui-samples
       logo: Muto%20Winner%20Transparent.png
   - name: Process & Frameworks
     items:
@@ -218,14 +202,16 @@ categories:
       project: Incubating
       repo_url: https://github.com/eclipse-score
       additional_repos:
+      - repo_url: https://github.com/eclipse-score/os_images
+      - repo_url: https://github.com/eclipse-score/cicd-workflows
       - repo_url: https://github.com/eclipse-score/baselibs
       - repo_url: https://github.com/eclipse-score/bazel_registry
       - repo_url: https://github.com/eclipse-score/rules_rust
       - repo_url: https://github.com/eclipse-score/persistency
       - repo_url: https://github.com/eclipse-score/communication
-      - repo_url: https://github.com/eclipse-score/cicd-workflows
       - repo_url: https://github.com/eclipse-score/reference_integration
       - repo_url: https://github.com/eclipse-score/inc_someip_gateway
+      - repo_url: https://github.com/eclipse-score/tooling
       logo: S_CORE_logo.png
     - name: Eclipse Automotive API Framework
       description: Decoupling of the application logic from the basic software stack
@@ -272,8 +258,6 @@ categories:
       - repo_url: https://github.com/eclipse-sdv-blueprints/fleet-management
       - repo_url: https://github.com/eclipse-sdv-blueprints/blueprints
       - repo_url: https://github.com/eclipse-sdv-blueprints/companion-application
-      - repo_url: https://github.com/eclipse-sdv-blueprints/software-orchestration
-      - repo_url: https://github.com/eclipse-sdv-blueprints/.github
       logo: blueprints.png
 - name: RTOS
   subcategories:
@@ -301,16 +285,6 @@ categories:
       - repo_url: https://github.com/eclipse-threadx/threadx-learn-samples
       - repo_url: https://github.com/eclipse-threadx/samples
       - repo_url: https://github.com/eclipse-threadx/guix
-      - repo_url: https://github.com/eclipse-threadx/levelx
-      - repo_url: https://github.com/eclipse-threadx/filex
-      - repo_url: https://github.com/eclipse-threadx/netxduo
-      - repo_url: https://github.com/eclipse-threadx/iot-devkit
-      - repo_url: https://github.com/eclipse-threadx/rtos-docs
-      - repo_url: https://github.com/eclipse-threadx/rtos-docs-html
-      - repo_url: https://github.com/eclipse-threadx/tracex
-      - repo_url: https://github.com/eclipse-threadx/supported-platforms
-      - repo_url: https://github.com/eclipse-threadx/.github
-      - repo_url: https://github.com/eclipse-threadx/cmsis-packs
       logo: ThreadX-Color-portrait.png
 - name: Example Applications
   subcategories:
@@ -341,13 +315,6 @@ categories:
       - repo_url: https://github.com/eclipse-muto/docs
       - repo_url: https://github.com/eclipse-muto/dashboard-device
       - repo_url: https://github.com/eclipse-muto/liveui
-      - repo_url: https://github.com/eclipse-muto/liveui-react-native
-      - repo_url: https://github.com/eclipse-muto/dashboard-stack
-      - repo_url: https://github.com/eclipse-muto/dashboard
-      - repo_url: https://github.com/eclipse-muto/liveui-core
-      - repo_url: https://github.com/eclipse-muto/liveui-react
-      - repo_url: https://github.com/eclipse-muto/liveui-vue
-      - repo_url: https://github.com/eclipse-muto/liveui-samples
       logo: Muto%20Winner%20Transparent.png
     - name: Eclipse ADAAA (Adaptive Cruise Control Demo Application for Adaptive AUTOSAR)
       description: 'ADAAA is example application for Adaptive AUTOSAR with the following
@@ -401,6 +368,8 @@ categories:
       - repo_url: https://github.com/eclipse-ecal/ecal-foxglove-bridge
       - repo_url: https://github.com/eclipse-ecal/ecaludp
       - repo_url: https://github.com/eclipse-ecal/udpcap
+      - repo_url: https://github.com/eclipse-ecal/ecal-mcap-tools
+      - repo_url: https://github.com/eclipse-ecal/.eclipsefdn
       logo: ecal_square.png
     - name: Eclipse Kuksa
       description: Eclipse KUKSA provides the essential data orchestration layer for
@@ -452,6 +421,7 @@ categories:
       - repo_url: https://github.com/eclipse-zenoh/zenoh-plugin-ros2dds
       - repo_url: https://github.com/eclipse-zenoh/zenoh-backend-filesystem
       - repo_url: https://github.com/eclipse-zenoh/zenoh-plugin-dds
+      - repo_url: https://github.com/eclipse-zenoh/zenoh
       logo: Zenoh%20-%20icon%20-%20dark.png
     - name: Eclipse Heimlig
       description: 'Eclipse Heimlig is a Hardware Security Module (HSM) firmware for
@@ -503,7 +473,6 @@ categories:
       - repo_url: https://github.com/eclipse-iceoryx/.github
       - repo_url: https://github.com/eclipse-iceoryx/iceoryx-project-template
       - repo_url: https://github.com/eclipse-iceoryx/iceoryx-rs
-      - repo_url: https://github.com/eclipse-iceoryx/iceoryx-automotive-soa
       logo: iceoryx-Logo-01.png
   - name: Service Mesh
     items:
@@ -544,9 +513,6 @@ categories:
       - repo_url: https://github.com/eclipse-opensovd/opensovd
       - repo_url: https://github.com/eclipse-opensovd/cpp-bindings
       - repo_url: https://github.com/eclipse-opensovd/dlt-tracing-lib
-      - repo_url: https://github.com/eclipse-opensovd/fault-lib
-      - repo_url: https://github.com/eclipse-opensovd/.github
-      - repo_url: https://github.com/eclipse-opensovd/website
       logo: incubating.png
   - name: Digital Twin
     items:
@@ -650,11 +616,6 @@ categories:
       - repo_url: https://github.com/eclipse-lmos/.eclipsefdn
       - repo_url: https://github.com/eclipse-lmos/arc-view
       - repo_url: https://github.com/eclipse-lmos/lmos-sample-agents
-      - repo_url: https://github.com/eclipse-lmos/arc-spring-init
-      - repo_url: https://github.com/eclipse-lmos/lmos-demo
-      - repo_url: https://github.com/eclipse-lmos/lmos-kotlin-sdk
-      - repo_url: https://github.com/eclipse-lmos/lmos-kotlin-sdk-template
-      - repo_url: https://github.com/eclipse-lmos/lmos-cli
       logo: lmos.png
 - name: Unmapped
   subcategories:
